@@ -13,3 +13,7 @@ jobs:
       - name: Lint
         # run linter (use latest version here)
         uses: g4s8/gitlint-action@0.2
+        with:
+          # see `inputs` section for more details
+          since: "2020-01-01"
+          pattern: "(.*?)"
