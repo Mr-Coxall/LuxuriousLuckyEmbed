@@ -1,0 +1,2 @@
+- name: W ES Lint
+  uses: avgar/awesome-lint@1.0.0
